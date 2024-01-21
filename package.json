@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-resume-page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
