@@ -5,7 +5,7 @@ import { PaperClipIcon } from "@heroicons/react/24/solid";
 
 export function FixedPlugin() {
   return (
-    <a href="/assets/Mahmudul_Resume(2).pdf" target="_blank" download>
+    <a href="/assets/mahmudul_haque.pdf" target="_blank" download>
       <Button
         color="white"
         size="sm"
