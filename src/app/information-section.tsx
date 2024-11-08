@@ -133,10 +133,31 @@ const PROJECTS = [
   },
   {
     icon: GlobeAltIcon,
-    title: "Grameen Creative Lab",
-    link: "https://grameencreativelab.co",
+    title: "Grameen Telecom",
+    link: "https://grameentelecom.net.bd",
     children:
-      "Grameen Creative Lab's frontend, crafted under my expertise, is a testament to innovation and user-centric design. Using a combination of cutting-edge technologies, I've ensured a visually appealing and intuitive interface. The frontend, meticulously built to align with Grameen Creative Lab's ethos, reflects a seamless blend of creativity and functionality, providing an engaging experience for its users."
+      "The Grameen Telecom website provides information about the company, which is a social enterprise based in Bangladesh. It focuses on leveraging telecommunications technology to empower rural communities and promote socio-economic development. Grameen Telecom is known for its innovative initiatives aimed at expanding mobile phone access to underserved populations, supporting micro-entrepreneurs, and contributing to poverty alleviation. The website typically features details on the organization's projects, achievements, and its role in facilitating digital inclusion and community support in line with its social business model."
+  },
+  {
+    icon: GlobeAltIcon,
+    title: "Grameen Telecom Trust",
+    link: "https://gtctrust.vercel.app",
+    children:
+      "The Grameen Telecom Trust (GTT) website highlights the organization's commitment to social business and sustainable development in Bangladesh. As an initiative of the Grameen family of enterprises, GTT focuses on creating income-generating opportunities and improving livelihoods for disadvantaged communities. The website typically provides insights into their various projects, social impact programs, and collaborations aimed at promoting entrepreneurship, reducing poverty, and fostering economic empowerment. GTT's emphasis is on creating a self-sustaining ecosystem that supports social welfare while maintaining financial sustainability."
+  },
+  {
+    icon: GlobeAltIcon,
+    title: "Grameen Distribution Limited",
+    link: "https://grameen-distribution-frontend.vercel.app",
+    children:
+      "The Grameen Distribution Limited website showcases the company's mission to enhance access to essential products and services in rural and underserved areas of Bangladesh. As part of the Grameen family, this enterprise distributes a range of goods, including health, energy, and consumer products, aimed at improving the quality of life for low-income communities. The website typically features information about their distribution network, partnerships, and initiatives that promote socio-economic development and sustainability. Grameen Distribution Limited is committed to bridging gaps in the supply chain and fostering a positive social impact through responsible business practices."
+  },
+  {
+    icon: GlobeAltIcon,
+    title: "Ooroh",
+    link: "https://ooroh.com",
+    children:
+      "The Ooroh website, developed with the latest Next.js framework, boasts a sleek and interactive user interface enhanced by advanced animations and seamless navigation. Its design focuses on delivering an engaging and visually captivating experience, combining cutting-edge web technologies for fast performance, smooth transitions, and responsive layouts that elevate user interaction."
   },
 ];
 
