@@ -9,7 +9,10 @@ export function FixedPlugin() {
       <Button
         color="white"
         size="sm"
-        className="!fixed bottom-4 right-4 flex gap-1 pl-2 items-center border border-blue-gray-50" placeholder={undefined}      >
+        className="!fixed bottom-4 right-4 flex gap-1 pl-2 items-center border border-blue-gray-50"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}>
         Download Resume
       </Button>
     </a>
