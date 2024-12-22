@@ -159,6 +159,13 @@ const PROJECTS = [
     children:
       "The Ooroh website, developed with the latest Next.js framework, boasts a sleek and interactive user interface enhanced by advanced animations and seamless navigation. Its design focuses on delivering an engaging and visually captivating experience, combining cutting-edge web technologies for fast performance, smooth transitions, and responsive layouts that elevate user interaction.",
   },
+  {
+    icon: GlobeAltIcon,
+    title: "Social Business Youth Summit",
+    link: "https://summit.yy.ventures",
+    children:
+      "The Social Business Youth Summit (SBYS) is an annual gathering of young changemakers, entrepreneurs, and social innovators dedicated to driving positive social impact through business. This event serves as a platform to inspire, connect, and empower youth to address pressing global challenges using the principles of social business. The summit features interactive workshops, keynote speeches by renowned social entrepreneurs, networking opportunities, and panel discussions on diverse topics such as sustainability, innovation, and community development. Participants gain valuable insights into building impactful enterprises, leveraging creative solutions for social good, and collaborating across sectors to create a more inclusive and equitable world.",
+  },
 ];
 
 export function InformationSection() {
