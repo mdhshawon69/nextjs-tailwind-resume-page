@@ -4,7 +4,7 @@ import {
   AcademicCapIcon,
   BriefcaseIcon,
   FireIcon,
-  GlobeAltIcon
+  GlobeAltIcon,
 } from "@heroicons/react/24/solid";
 
 import InfoCard from "@/components/info-card";
@@ -91,7 +91,7 @@ const SKILLS = [
     title: "Back-End Frameworks ",
     date: "Technical Skills",
     children:
-      "Skilled in creating backend servers using Express.js and NestJS, built on top of Node.js, reflects a comprehensive skill set in developing robust and scalable server-side applications."
+      "Skilled in creating backend servers using Express.js and NestJS, built on top of Node.js, reflects a comprehensive skill set in developing robust and scalable server-side applications.",
   },
 ];
 
@@ -122,42 +122,49 @@ const PROJECTS = [
     title: "Imapact Hub Dhaka",
     link: "https://dhaka.impacthub.net",
     children:
-      "The Impact Hub Dhaka website, a testament to my web development expertise, is skillfully built using Next.js, SCSS, and the powerful features of Next.js. This modern tech stack ensures a seamless and visually engaging user experience. Leveraging Next.js for server-side rendering, coupled with the flexibility of SCSS for styling, the website combines performance with aesthetics. The incorporation of Next.js features enhances the site's functionality and keeps it at the forefront of web development. The Impact Hub Dhaka website stands as a showcase of innovation and efficiency, reflecting the capabilities of this dynamic technology combination."
+      "The Impact Hub Dhaka website, a testament to my web development expertise, is skillfully built using Next.js, TailwindCSS, and the powerful features of Next.js 15. This modern tech stack ensures a seamless and visually engaging user experience. Leveraging Next.js for server-side rendering, coupled with the flexibility of TailwindCSS for styling, the website combines performance with aesthetics. The incorporation of Next.js features enhances the site's functionality and keeps it at the forefront of web development. The Impact Hub Dhaka website stands as a showcase of innovation and efficiency, reflecting the capabilities of this dynamic technology combination.",
   },
   {
     icon: GlobeAltIcon,
     title: "3Zero Club",
     link: "https://3zero.club",
     children:
-      "As the steward of the 3Zero Club website, meticulously crafted with Angular, my role involves ensuring its continued excellence and functionality. Angular's robust framework provides a solid foundation for a seamless user experience, and my ongoing maintenance involves optimizing performance, updating content, and implementing any necessary enhancements. With a commitment to keeping the website current and responsive, I strive to uphold the 3Zero Club's online presence, ensuring it remains a dynamic platform for its audience."
+      "As the steward of the 3Zero Club website, meticulously crafted with Angular, my role involves ensuring its continued excellence and functionality. Angular's robust framework provides a solid foundation for a seamless user experience, and my ongoing maintenance involves optimizing performance, updating content, and implementing any necessary enhancements. With a commitment to keeping the website current and responsive, I strive to uphold the 3Zero Club's online presence, ensuring it remains a dynamic platform for its audience.",
   },
   {
     icon: GlobeAltIcon,
     title: "Grameen Telecom",
     link: "https://grameentelecom.net.bd",
     children:
-      "The Grameen Telecom website provides information about the company, which is a social enterprise based in Bangladesh. It focuses on leveraging telecommunications technology to empower rural communities and promote socio-economic development. Grameen Telecom is known for its innovative initiatives aimed at expanding mobile phone access to underserved populations, supporting micro-entrepreneurs, and contributing to poverty alleviation. The website typically features details on the organization's projects, achievements, and its role in facilitating digital inclusion and community support in line with its social business model."
+      "The Grameen Telecom website provides information about the company, which is a social enterprise based in Bangladesh. It focuses on leveraging telecommunications technology to empower rural communities and promote socio-economic development. Grameen Telecom is known for its innovative initiatives aimed at expanding mobile phone access to underserved populations, supporting micro-entrepreneurs, and contributing to poverty alleviation. The website typically features details on the organization's projects, achievements, and its role in facilitating digital inclusion and community support in line with its social business model.",
   },
   {
     icon: GlobeAltIcon,
     title: "Grameen Telecom Trust",
     link: "https://gtctrust.vercel.app",
     children:
-      "The Grameen Telecom Trust (GTT) website highlights the organization's commitment to social business and sustainable development in Bangladesh. As an initiative of the Grameen family of enterprises, GTT focuses on creating income-generating opportunities and improving livelihoods for disadvantaged communities. The website typically provides insights into their various projects, social impact programs, and collaborations aimed at promoting entrepreneurship, reducing poverty, and fostering economic empowerment. GTT's emphasis is on creating a self-sustaining ecosystem that supports social welfare while maintaining financial sustainability."
+      "The Grameen Telecom Trust (GTT) website highlights the organization's commitment to social business and sustainable development in Bangladesh. As an initiative of the Grameen family of enterprises, GTT focuses on creating income-generating opportunities and improving livelihoods for disadvantaged communities. The website typically provides insights into their various projects, social impact programs, and collaborations aimed at promoting entrepreneurship, reducing poverty, and fostering economic empowerment. GTT's emphasis is on creating a self-sustaining ecosystem that supports social welfare while maintaining financial sustainability.",
   },
   {
     icon: GlobeAltIcon,
     title: "Grameen Distribution Limited",
-    link: "https://grameen-distribution-frontend.vercel.app",
+    link: "https://grameendistribution.com",
     children:
-      "The Grameen Distribution Limited website showcases the company's mission to enhance access to essential products and services in rural and underserved areas of Bangladesh. As part of the Grameen family, this enterprise distributes a range of goods, including health, energy, and consumer products, aimed at improving the quality of life for low-income communities. The website typically features information about their distribution network, partnerships, and initiatives that promote socio-economic development and sustainability. Grameen Distribution Limited is committed to bridging gaps in the supply chain and fostering a positive social impact through responsible business practices."
+      "The Grameen Distribution Limited website showcases the company's mission to enhance access to essential products and services in rural and underserved areas of Bangladesh. As part of the Grameen family, this enterprise distributes a range of goods, including health, energy, and consumer products, aimed at improving the quality of life for low-income communities. The website typically features information about their distribution network, partnerships, and initiatives that promote socio-economic development and sustainability. Grameen Distribution Limited is committed to bridging gaps in the supply chain and fostering a positive social impact through responsible business practices.",
   },
   {
     icon: GlobeAltIcon,
     title: "Ooroh",
     link: "https://ooroh.com",
     children:
-      "The Ooroh website, developed with the latest Next.js framework, boasts a sleek and interactive user interface enhanced by advanced animations and seamless navigation. Its design focuses on delivering an engaging and visually captivating experience, combining cutting-edge web technologies for fast performance, smooth transitions, and responsive layouts that elevate user interaction."
+      "The Ooroh website, developed with the latest Next.js framework, boasts a sleek and interactive user interface enhanced by advanced animations and seamless navigation. Its design focuses on delivering an engaging and visually captivating experience, combining cutting-edge web technologies for fast performance, smooth transitions, and responsive layouts that elevate user interaction.",
+  },
+  {
+    icon: GlobeAltIcon,
+    title: "Grameen Telecom Trust",
+    link: "https://gtctrust.vercel.app",
+    children:
+      "Built a dynamic and user-friendly website for Grameen Telecom Trust (GTT) using the MERN stack. The platform effectively showcases GTT’s mission of implementing and facilitating Social Business ideas to drive societal transformation. Designed for scalability and seamless user experience, the website integrates key features to support GTT’s initiatives and engagement.",
   },
 ];
 
@@ -167,10 +174,18 @@ export function InformationSection() {
       <div className="grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start">
         <div>
           <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder={undefined}>
+            <Typography
+              color="blue-gray"
+              className="mb-2 text-3xl font-bold"
+              placeholder={undefined}
+            >
               Education & Certifications
             </Typography>
-            <Typography variant="lead" className="!text-gray-500" placeholder={undefined}>
+            <Typography
+              variant="lead"
+              className="!text-gray-500"
+              placeholder={undefined}
+            >
               See my education history.
             </Typography>
           </div>
@@ -182,10 +197,18 @@ export function InformationSection() {
         </div>
         <div>
           <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold"  placeholder={undefined}>
+            <Typography
+              color="blue-gray"
+              className="mb-2 text-3xl font-bold"
+              placeholder={undefined}
+            >
               Experience
             </Typography>
-            <Typography variant="lead" className="!text-gray-500" placeholder={undefined}>
+            <Typography
+              variant="lead"
+              className="!text-gray-500"
+              placeholder={undefined}
+            >
               See my experience as a developer.
             </Typography>
           </div>
@@ -199,10 +222,18 @@ export function InformationSection() {
       <div className="container gap-20 mt-36 mx-auto items-center">
         <div>
           <div className="mb-10">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder={undefined}>
+            <Typography
+              color="blue-gray"
+              className="mb-2 text-3xl font-bold"
+              placeholder={undefined}
+            >
               Skills
             </Typography>
-            <Typography variant="lead" className="!text-gray-500" placeholder={undefined}>
+            <Typography
+              variant="lead"
+              className="!text-gray-500"
+              placeholder={undefined}
+            >
               Check out my technical and soft skills.
             </Typography>
           </div>
@@ -214,10 +245,18 @@ export function InformationSection() {
         </div>
         <div>
           <div className="mt-20">
-            <Typography color="blue-gray" className="mb-2 text-3xl font-bold" placeholder={""}>
+            <Typography
+              color="blue-gray"
+              className="mb-2 text-3xl font-bold"
+              placeholder={""}
+            >
               Projects
             </Typography>
-            <Typography variant="lead" className="!text-gray-500" placeholder={""}>
+            <Typography
+              variant="lead"
+              className="!text-gray-500"
+              placeholder={""}
+            >
               Check out some of my projects.
             </Typography>
           </div>
