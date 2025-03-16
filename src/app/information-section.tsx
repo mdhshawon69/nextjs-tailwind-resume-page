@@ -166,6 +166,13 @@ const PROJECTS = [
     children:
       "Built a dynamic and user-friendly website for Grameen Telecom Trust (GTT) using the MERN stack. The platform effectively showcases GTT’s mission of implementing and facilitating Social Business ideas to drive societal transformation. Designed for scalability and seamless user experience, the website integrates key features to support GTT’s initiatives and engagement.",
   },
+  {
+    icon: GlobeAltIcon,
+    title: "Social Business Youth Summit",
+    link: "https://summit.yy.ventures",
+    children:
+      "The Social Business Youth Summit (SBYS) is an annual gathering of young changemakers, entrepreneurs, and social innovators dedicated to driving positive social impact through business. This event serves as a platform to inspire, connect, and empower youth to address pressing global challenges using the principles of social business. The summit features interactive workshops, keynote speeches by renowned social entrepreneurs, networking opportunities, and panel discussions on diverse topics such as sustainability, innovation, and community development. Participants gain valuable insights into building impactful enterprises, leveraging creative solutions for social good, and collaborating across sectors to create a more inclusive and equitable world.",
+  },
 ];
 
 export function InformationSection() {
@@ -178,6 +185,8 @@ export function InformationSection() {
               color="blue-gray"
               className="mb-2 text-3xl font-bold"
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Education & Certifications
             </Typography>
@@ -185,6 +194,8 @@ export function InformationSection() {
               variant="lead"
               className="!text-gray-500"
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               See my education history.
             </Typography>
@@ -201,6 +212,8 @@ export function InformationSection() {
               color="blue-gray"
               className="mb-2 text-3xl font-bold"
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Experience
             </Typography>
@@ -208,6 +221,8 @@ export function InformationSection() {
               variant="lead"
               className="!text-gray-500"
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               See my experience as a developer.
             </Typography>
@@ -226,6 +241,8 @@ export function InformationSection() {
               color="blue-gray"
               className="mb-2 text-3xl font-bold"
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Skills
             </Typography>
@@ -233,6 +250,8 @@ export function InformationSection() {
               variant="lead"
               className="!text-gray-500"
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Check out my technical and soft skills.
             </Typography>
@@ -249,6 +268,8 @@ export function InformationSection() {
               color="blue-gray"
               className="mb-2 text-3xl font-bold"
               placeholder={""}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Projects
             </Typography>
@@ -256,6 +277,8 @@ export function InformationSection() {
               variant="lead"
               className="!text-gray-500"
               placeholder={""}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Check out some of my projects.
             </Typography>
