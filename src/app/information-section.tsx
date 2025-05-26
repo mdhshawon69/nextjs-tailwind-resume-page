@@ -43,7 +43,7 @@ const EXPERIENCE = [
   },
   {
     icon: BriefcaseIcon,
-    title: "Junior Frontend Developer, Make Real",
+    title: "Frontend Developer, Make Real",
     date: "Jul 2021 - Dec 2023",
     children:
       "As a Junior Frontend Developer at Make Real, I actively contributed to the creation of visually appealing and user-friendly web interfaces. My role involved translating design concepts into functional and responsive websites, utilizing a combination of HTML, CSS, and JavaScript. Working closely with the design and development teams, I participated in the entire frontend development process. This included collaborating on the initial design discussions, implementing responsive layouts to ensure optimal user experiences across devices, and incorporating interactive elements to enhance overall user engagement.",
@@ -140,10 +140,10 @@ const PROJECTS = [
   },
   {
     icon: GlobeAltIcon,
-    title: "Grameen Telecom Trust",
-    link: "https://gtctrust.vercel.app",
+    title: "Grameen Distribution Limited E-commerce",
+    link: "https://shop.grameendistribution.com",
     children:
-      "The Grameen Telecom Trust (GTT) website highlights the organization's commitment to social business and sustainable development in Bangladesh. As an initiative of the Grameen family of enterprises, GTT focuses on creating income-generating opportunities and improving livelihoods for disadvantaged communities. The website typically provides insights into their various projects, social impact programs, and collaborations aimed at promoting entrepreneurship, reducing poverty, and fostering economic empowerment. GTT's emphasis is on creating a self-sustaining ecosystem that supports social welfare while maintaining financial sustainability.",
+      "The Grameen Distribution Limited E-commerce platform represents a significant digital transformation initiative, built using Next.js and modern web technologies. This comprehensive online marketplace serves as a digital bridge, connecting rural communities with essential products and services. The platform features an intuitive user interface, secure payment gateways, and a robust inventory management system. It enables customers to browse and purchase a wide range of products including health supplies, energy solutions, and consumer goods. The e-commerce solution incorporates advanced features such as real-time inventory tracking, order management, and delivery status updates, all while maintaining the organization's commitment to social impact and sustainable business practices.",
   },
   {
     icon: GlobeAltIcon,
