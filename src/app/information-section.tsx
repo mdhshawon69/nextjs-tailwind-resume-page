@@ -15,83 +15,90 @@ const EDUCATION = [
     title: "Bachelor of Science in Computer Science - BUBT",
     date: "2023 - PRESENT",
     children:
-      "Currently pursuing a Bachelor of Science in Computer Science and Engineering, I find myself immersed in a captivating journey of learning and exploration. As I navigate through the second semester, the curriculum delves into more advanced topics, building upon the foundational knowledge acquired in the initial stages of the program.",
+      "Currently pursuing a Bachelor of Science in Computer Science and Engineering, immersed in a journey of learning and exploration. The curriculum delves into advanced topics, building upon the foundational knowledge acquired in the initial stages of the program.",
   },
   {
     icon: AcademicCapIcon,
-    title: "Diploma in Engineering - Engineering and Survey Institute",
-    date: "2018 - 2022",
+    title: "Diploma in Engineering - Engineering and Survey Institute, Rajshahi",
+    date: "Jan 2022",
     children:
-      "Having successfully completed my Diploma in Engineering, I am proud to have acquired a comprehensive understanding of the fundamental principles that underpin various engineering disciplines. Over the course of two to three years, I delved into subjects such as mathematics, physics, and specialized areas like mechanical, electrical, or computer engineering, depending on my chosen field.",
-  },
-  {
-    icon: AcademicCapIcon,
-    title: "Secondary School Certificate - Galaxy School and College",
-    date: "2017",
-    children:
-      "Having completed my secondary school certificate, I feel a sense of accomplishment and readiness for the next chapter of my academic journey. Throughout these years, I've not only gained essential knowledge in various subjects but also developed valuable skills in time management, critical thinking, and collaboration.",
+      "Completed Diploma in Engineering with a GPA of 3.54/4.00. Acquired a comprehensive understanding of fundamental engineering principles including mathematics, physics, and specialized areas in computer engineering, building a strong technical foundation for a career in software development.",
   },
 ];
 
 const EXPERIENCE = [
   {
     icon: BriefcaseIcon,
-    title: "Software Development Engineer, YY Ventures",
-    date: "Dec 2022 - PRESENT",
+    title: "Senior Software Engineer, Al Aqsa Express",
+    date: "Nov 2025 - PRESENT",
     children:
-      "As a Software Development Engineer at YY Ventures, I play a crucial role in designing, implementing, and maintaining innovative software solutions. My responsibilities span the entire software development lifecycle, from conceptualization and coding to testing, deployment, and ongoing optimization. In collaboration with a dynamic team, I engage in problem-solving and contribute to the development of cutting-edge projects that align with YY Ventures' goals. This involves not only writing efficient and scalable code but also actively participating in brainstorming sessions, code reviews, and collaborative discussions to ensure the highest quality standards in our deliverables.",
+      "Lead React Native mobile app development for logistics ecosystem serving thousands of users across iOS and Android. Architect real-time tracking, delivery workflows, and route optimization with Redux Toolkit and native modules. Optimize performance achieving 60 FPS animations, 40% reduced bundle size, and 35% faster cold start times. Enhanced software functionality by identifying and resolving complex technical issues. Mentored junior developers, fostering professional growth and enhancing team productivity.",
   },
   {
     icon: BriefcaseIcon,
-    title: "Frontend Developer, Make Real",
-    date: "Jul 2021 - Dec 2023",
+    title: "Software Development Engineer, YY Ventures - Dhaka",
+    date: "Dec 2022 - Dec 2024",
     children:
-      "As a Junior Frontend Developer at Make Real, I actively contributed to the creation of visually appealing and user-friendly web interfaces. My role involved translating design concepts into functional and responsive websites, utilizing a combination of HTML, CSS, and JavaScript. Working closely with the design and development teams, I participated in the entire frontend development process. This included collaborating on the initial design discussions, implementing responsive layouts to ensure optimal user experiences across devices, and incorporating interactive elements to enhance overall user engagement.",
+      "Architected full-stack applications with Next.js and NestJS handling 100,000+ monthly active users. Built responsive UIs with advanced search, filtering, and data visualization using Redux Toolkit and React Hook Form. Achieved 90+ Lighthouse scores through code splitting, lazy loading, and optimization techniques. Optimized software performance by implementing efficient algorithms and code optimizations. Designed scalable architecture for applications to easily accommodate future growth in user base or functionality expansion.",
   },
   {
     icon: BriefcaseIcon,
-    title: "Junior Developer, Global Digital Solutions",
-    date: "Feb 2021 - May 2022",
+    title: "Frontend Developer, Make Real - Rajshahi",
+    date: "Aug 2022 - Nov 2022",
     children:
-      "As a Junior Developer at Global Digital Solutions, I played a vital role in the development and maintenance of digital solutions that contributed to the company's technological landscape. My responsibilities included working on various aspects of the software development lifecycle, from initial coding to testing and deployment. Collaborating within a dynamic team of developers, I actively participated in coding tasks, ensuring the functionality and efficiency of the software products. My role involved writing clean and maintainable code, adhering to coding standards and best practices. Engaging in regular code reviews provided valuable feedback and insights that contributed to my professional growth.",
+      "Developed React applications with Redux Toolkit, React Hook Form, and Zod schema validation. Optimized performance using memoization techniques reducing re-renders by 70%. Utilized HTML, CSS, and JavaScript to create visually appealing and responsive web pages that met client requirements. Coded using HTML, CSS, and JavaScript to develop features for both mobile and desktop platforms.",
+  },
+  {
+    icon: BriefcaseIcon,
+    title: "Junior Frontend Developer, Global Digital Solutions - Dhaka",
+    date: "Feb 2020 - Jun 2022",
+    children:
+      "Converted design mockups into responsive React components with modern JavaScript ES6+ and semantic HTML/CSS. Integrated RESTful APIs with comprehensive error handling and implemented WCAG accessibility guidelines. Worked closely alongside UX/UI designers to create seamless and visually appealing user interfaces by translating wireframes into functional HTML, CSS, and JavaScript code. Collaborated with the design team to convert mockups into fully functional web pages, ensuring seamless user interfaces.",
   },
 ];
 
 const SKILLS = [
   {
     icon: FireIcon,
-    title: "Front-End Frameworks",
+    title: "Mobile Development",
     date: "Technical Skills",
     children:
-      "Competent in working with front-end frameworks such as React, Angular, or Vue.js to develop dynamic and responsive web applications with a focus on user experience.",
+      "React Native, Expo, and Native Modules for building high-performance cross-platform mobile applications with native-level performance and seamless user experiences across iOS and Android.",
   },
   {
     icon: FireIcon,
-    title: "Attention to Detail",
-    date: "Soft Skills",
-    children:
-      "Meticulous attention to detail in code quality, user interface design, and testing to ensure error-free and user-friendly web applications.",
-  },
-  {
-    icon: FireIcon,
-    title: "Responsive Web Design",
+    title: "Frontend Development",
     date: "Technical Skills",
     children:
-      "Skilled in creating responsive layouts using CSS Grid, Flexbox, and media queries. Ensures websites adapt seamlessly to various screen sizes and devices.",
+      "React.js, Next.js, TypeScript, and JavaScript for building dynamic, responsive, and scalable web applications with modern UI/UX patterns and server-side rendering capabilities.",
   },
   {
     icon: FireIcon,
-    title: "Time Management",
-    date: "Soft Skills",
-    children:
-      "Excellent time management skills to meet project deadlines, prioritize tasks effectively, and handle multiple projects simultaneously.",
-  },
-  {
-    icon: FireIcon,
-    title: "Back-End Frameworks ",
+    title: "Backend Development",
     date: "Technical Skills",
     children:
-      "Skilled in creating backend servers using Express.js and NestJS, built on top of Node.js, reflects a comprehensive skill set in developing robust and scalable server-side applications.",
+      "Node.js, NestJS, Express.js, RESTful APIs, and Redis for building robust, scalable server-side applications with efficient data handling and caching strategies.",
+  },
+  {
+    icon: FireIcon,
+    title: "State Management & Validation",
+    date: "Technical Skills",
+    children:
+      "Redux Toolkit, React Hook Form, and Zod for managing complex application state, building performant forms, and implementing type-safe schema validation.",
+  },
+  {
+    icon: FireIcon,
+    title: "Styling & UI",
+    date: "Technical Skills",
+    children:
+      "Tailwind CSS and Styled Components for creating beautiful, responsive, and maintainable user interfaces with utility-first and component-scoped styling approaches.",
+  },
+  {
+    icon: FireIcon,
+    title: "Developer Tools",
+    date: "Technical Skills",
+    children:
+      "Git, VS Code, Webpack, and Vite for version control, efficient development workflows, and optimized build processes with modern bundling and hot module replacement.",
   },
 ];
 
@@ -141,7 +148,7 @@ const PROJECTS = [
   {
     icon: GlobeAltIcon,
     title: "Grameen Distribution Limited E-commerce",
-    link: "https://shop.grameendistribution.com",
+    link: "https://grameendistribution.com/shop",
     children:
       "The Grameen Distribution Limited E-commerce platform represents a significant digital transformation initiative, built using Next.js and modern web technologies. This comprehensive online marketplace serves as a digital bridge, connecting rural communities with essential products and services. The platform features an intuitive user interface, secure payment gateways, and a robust inventory management system. It enables customers to browse and purchase a wide range of products including health supplies, energy solutions, and consumer goods. The e-commerce solution incorporates advanced features such as real-time inventory tracking, order management, and delivery status updates, all while maintaining the organization's commitment to social impact and sustainable business practices.",
   },
@@ -162,7 +169,7 @@ const PROJECTS = [
   {
     icon: GlobeAltIcon,
     title: "Grameen Telecom Trust",
-    link: "https://gtctrust.vercel.app",
+    link: "https://gtctrust.com",
     children:
       "Built a dynamic and user-friendly website for Grameen Telecom Trust (GTT) using the MERN stack. The platform effectively showcases GTT’s mission of implementing and facilitating Social Business ideas to drive societal transformation. Designed for scalability and seamless user experience, the website integrates key features to support GTT’s initiatives and engagement.",
   },

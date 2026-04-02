@@ -30,18 +30,27 @@ function Hero() {
             Mahmudul Haque
           </Typography>
           <Typography
+            variant="h4"
+            color="gray"
+            className="mt-2"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}>
+            JavaScript Developer
+          </Typography>
+          <Typography
             variant="lead"
             color="gray"
             className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl"
             placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}>
-            Welcome to my digital space! Here, you'll discover a showcase of my
-            passion and proficiency in the world of technology and design.
-            Explore the projects that reflect my journey, skills, and commitment
-            to creating innovative solutions. From code to creativity, I invite
-            you to explore the intersection of my skills and aspirations. Enjoy
-            the journey through my portfolio!
+            JavaScript Developer with 5+ years of expertise building scalable
+            web and mobile applications. Specialized in React Native mobile
+            development for logistics ecosystems, with strong full-stack
+            capabilities in React.js, Next.js, NestJS, and Node.js. Proven
+            track record delivering high-performance applications with
+            optimized user experiences.
           </Typography>
           <Typography
             className="mt-12 mb-4 text-blue-gray-900 font-medium uppercase"

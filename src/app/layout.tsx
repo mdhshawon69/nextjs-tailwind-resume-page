@@ -10,8 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Mahmudul Haque",
-  description: "",
+  title: "Mahmudul Haque - JavaScript Developer",
+  description:
+    "JavaScript Developer with 5+ years of expertise building scalable web and mobile applications. Specialized in React Native mobile development for logistics ecosystems, with strong full-stack capabilities in React.js, Next.js, NestJS, and Node.js.",
 };
 
 export default function RootLayout({
