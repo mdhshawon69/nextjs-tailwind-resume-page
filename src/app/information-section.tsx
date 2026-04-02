@@ -194,6 +194,8 @@ export function InformationSection() {
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               Education & Certifications
             </Typography>
@@ -203,6 +205,8 @@ export function InformationSection() {
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               See my education history.
             </Typography>
@@ -221,6 +225,8 @@ export function InformationSection() {
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               Experience
             </Typography>
@@ -230,6 +236,8 @@ export function InformationSection() {
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               See my experience as a developer.
             </Typography>
@@ -250,6 +258,8 @@ export function InformationSection() {
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               Skills
             </Typography>
@@ -259,6 +269,8 @@ export function InformationSection() {
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               Check out my technical and soft skills.
             </Typography>
@@ -277,6 +289,8 @@ export function InformationSection() {
               placeholder={""}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               Projects
             </Typography>
@@ -286,6 +300,8 @@ export function InformationSection() {
               placeholder={""}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
             >
               Check out some of my projects.
             </Typography>

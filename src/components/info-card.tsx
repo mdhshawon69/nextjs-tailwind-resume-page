@@ -25,21 +25,27 @@ export function InfoCard({
     <Card
       placeholder={undefined}
       onPointerEnterCapture={undefined}
-      onPointerLeaveCapture={undefined}>
+      onPointerLeaveCapture={undefined}
+      onResize={undefined}
+      onResizeCapture={undefined}>
       <CardHeader
         className="flex items-center justify-between rounded-none overflow-visible"
         floated={false}
         shadow={false}
         placeholder={undefined}
         onPointerEnterCapture={undefined}
-        onPointerLeaveCapture={undefined}>
+        onPointerLeaveCapture={undefined}
+        onResize={undefined}
+        onResizeCapture={undefined}>
         <div className="flex flex-col gap-1 w-full">
           <Typography
             color="blue"
             className="font-bold text-xs"
             placeholder={undefined}
             onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}>
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}>
             {date && date}
           </Typography>
           <Typography
@@ -48,7 +54,9 @@ export function InfoCard({
             className="w-full"
             placeholder={undefined}
             onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}>
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}>
             {link ? (
               <a className="text-blue-600" target="_blank" href={link}>
                 {title}
@@ -63,7 +71,9 @@ export function InfoCard({
           ripple={false}
           placeholder={undefined}
           onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}>
+          onPointerLeaveCapture={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}>
           <Icon className="h-5 w-5" strokeWidth={2} />
         </IconButton>
       </CardHeader>
@@ -71,12 +81,16 @@ export function InfoCard({
         className="grid justify-start !px-3.5 pt-2"
         placeholder={undefined}
         onPointerEnterCapture={undefined}
-        onPointerLeaveCapture={undefined}>
+        onPointerLeaveCapture={undefined}
+        onResize={undefined}
+        onResizeCapture={undefined}>
         <Typography
           className=" font-normal !text-gray-500"
           placeholder={undefined}
           onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}>
+          onPointerLeaveCapture={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}>
           {children}
         </Typography>
       </CardBody>

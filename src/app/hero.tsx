@@ -26,7 +26,9 @@ function Hero() {
             color="blue-gray"
             placeholder={undefined}
             onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}>
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}>
             Mahmudul Haque
           </Typography>
           <Typography
@@ -35,7 +37,9 @@ function Hero() {
             className="mt-2"
             placeholder={undefined}
             onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}>
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}>
             JavaScript Developer
           </Typography>
           <Typography
@@ -44,7 +48,9 @@ function Hero() {
             className="mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl"
             placeholder={undefined}
             onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}>
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}>
             JavaScript Developer with 5+ years of expertise building scalable
             web and mobile applications. Specialized in React Native mobile
             development for logistics ecosystems, with strong full-stack
@@ -56,7 +62,9 @@ function Hero() {
             className="mt-12 mb-4 text-blue-gray-900 font-medium uppercase"
             placeholder={undefined}
             onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}>
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}>
             Connect me on:
           </Typography>
           <div className="gap-2 lg:flex">
@@ -65,7 +73,9 @@ function Hero() {
               color="gray"
               placeholder={undefined}
               onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}>
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}>
               <a
                 href="https://www.facebook.com/profile.php?id=100004614645933"
                 target="_blank">
@@ -77,7 +87,9 @@ function Hero() {
               color="gray"
               placeholder={undefined}
               onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}>
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}>
               <a
                 href="https://www.linkedin.com/in/mahmudul-haque-b1486a252/"
                 target="_blank">
@@ -89,7 +101,9 @@ function Hero() {
               color="gray"
               placeholder={undefined}
               onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}>
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}>
               <a href="https://github.com/mdhshawon69" target="_blank">
                 <i className="fa-brands fa-github text-lg" />
               </a>
