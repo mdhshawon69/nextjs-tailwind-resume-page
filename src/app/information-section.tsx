@@ -3,6 +3,7 @@ import { Typography } from "@material-tailwind/react";
 import {
   AcademicCapIcon,
   BriefcaseIcon,
+  DevicePhoneMobileIcon,
   FireIcon,
   GlobeAltIcon,
 } from "@heroicons/react/24/solid";
@@ -103,6 +104,34 @@ const SKILLS = [
 ];
 
 const PROJECTS = [
+  {
+    icon: DevicePhoneMobileIcon,
+    title: "AAEX Merchant App",
+    link: "https://play.google.com/store/apps/details?id=com.alaqsaexpress.aaexmerchant&hl=en",
+    children:
+      "React Native mobile application for Al-Aqsa Express merchants to manage shipments, schedule pickups, track parcels in real time, and handle cash-on-delivery workflows. Built as part of Bangladesh's logistics ecosystem with nationwide delivery coverage, SMS tracking updates, and dedicated merchant account management.",
+  },
+  {
+    icon: DevicePhoneMobileIcon,
+    title: "AAEX Rider App",
+    link: "",
+    children:
+      "React Native mobile application for Al-Aqsa Express delivery riders, enabling real-time route management, parcel pickup and drop-off workflows, delivery status updates, and seamless coordination with the merchant platform across the nationwide courier network.",
+  },
+  {
+    icon: GlobeAltIcon,
+    title: "Al Aqsa Express",
+    link: "https://al-aqsa.express",
+    children:
+      "Corporate website for Bangladesh's Al-Aqsa Express courier service, built with Next.js and shadcn/ui. Showcases nationwide logistics coverage, merchant services, parcel tracking, and company offerings with a modern, responsive design.",
+  },
+  {
+    icon: GlobeAltIcon,
+    title: "Imporo",
+    link: "https://imporo.global",
+    children:
+      "Dropshipping platform built with Next.js, NestJS, PostgreSQL, and shadcn/ui. Full-stack e-commerce solution for managing product catalogs, orders, and supplier integrations with a modern, responsive admin and storefront experience.",
+  },
   {
     icon: GlobeAltIcon,
     title: "YY Ventures",
