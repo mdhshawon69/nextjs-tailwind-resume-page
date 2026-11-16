@@ -1,94 +1,99 @@
-// import React from "react";
-// import {
-//   Navbar as MTNavbar,
-//   Collapse,
-//   Button,
-//   IconButton,
-//   Typography,
-// } from "@material-tailwind/react";
-// import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
+"use client";
 
-// const NAV_MENU = [];
+import { useEffect, useState } from "react";
+import { navLinks, profile } from "@/lib/resume-data";
 
-// function NavItem({ children }: { children: React.ReactNode }) {
-//   return (
-//     <li>
-//       <Typography
-//         as="a"
-//         href="#"
-//         variant="paragraph"
-//         color="gray"
-//         className="flex items-center gap-2 font-medium text-gray-900"
-//       >
-//         {children}
-//       </Typography>
-//     </li>
-//   );
-// }
+export default function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
-// export function Navbar() {
-//   const [open, setOpen] = React.useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
-//   function handleOpen() {
-//     setOpen((cur) => !cur);
-//   }
+  // Lock body scroll while the mobile menu is open
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
 
-//   React.useEffect(() => {
-//     window.addEventListener(
-//       "resize",
-//       () => window.innerWidth >= 960 && setOpen(false)
-//     );
-//   }, []);
+  return (
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+        scrolled || open
+          ? "border-b border-stone-100 bg-white/90 backdrop-blur-md"
+          : "border-b border-transparent bg-white"
+      }`}
+    >
+      <nav className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-5">
+        <a href="#top" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
+          <span className="grid h-7 w-7 place-items-center rounded-md bg-accent-600 text-[11px] font-bold text-white">
+            MH
+          </span>
+          <span className="text-[15px] font-semibold tracking-tight text-stone-900">
+            {profile.name}
+          </span>
+        </a>
 
-//   return (
-//     <MTNavbar
-//       fullWidth
-//       blurred={false}
-//       shadow={false}
-//       color="white"
-//       className="sticky top-0 z-50 border-0"
-//     >
-//       <div className="container mx-auto flex items-center justify-between">
-//         <Typography
-//           as="a"
-//           href="https://www.material-tailwind.com"
-//           target="_blank"
-//           color="blue-gray"
-//           className="text-lg font-bold"
-//         >
-          
-//         </Typography>
-//         <ul className="ml-10 hidden items-center gap-8 lg:flex">
-//           {NAV_MENU.map((nav) => (
-//             <NavItem key={nav}>{nav}</NavItem>
-//           ))}
-//         </ul>
-        
-//         <IconButton
-//           variant="text"
-//           color="gray"
-//           onClick={handleOpen}
-//           className="ml-auto inline-block lg:hidden"
-//         >
-//           {open ? (
-//             <XMarkIcon strokeWidth={2} className="h-6 w-6" />
-//           ) : (
-//             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
-//           )}
-//         </IconButton>
-//       </div>
-//       <Collapse open={open}>
-//         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
-//           <ul className="flex flex-col gap-4">
-//             {NAV_MENU.map((nav) => (
-//               <NavItem key={nav}>{nav}</NavItem>
-//             ))}
-//           </ul>
-          
-//         </div>
-//       </Collapse>
-//     </MTNavbar>
-//   );
-// }
+        {/* desktop */}
+        <div className="hidden items-center gap-7 md:flex">
+          {navLinks.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              className="text-sm text-stone-500 transition hover:text-stone-900"
+            >
+              {l.label}
+            </a>
+          ))}
+          <a
+            href={`mailto:${profile.email}`}
+            className="rounded-lg bg-accent-600 px-4 py-1.5 text-sm font-medium text-white transition hover:bg-accent-700"
+          >
+            Hire me
+          </a>
+        </div>
 
-// export default Navbar;
+        {/* mobile toggle */}
+        <button
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle menu"
+          aria-expanded={open}
+          className="grid h-9 w-9 place-items-center rounded-lg text-stone-700 transition hover:bg-stone-100 md:hidden"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="h-5 w-5">
+            {open ? <path d="M6 6l12 12M18 6 6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
+          </svg>
+        </button>
+      </nav>
+
+      {/* mobile menu */}
+      {open && (
+        <div className="border-t border-stone-100 bg-white px-4 pb-6 pt-2 md:hidden">
+          {navLinks.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              onClick={() => setOpen(false)}
+              className="block rounded-lg px-3 py-3 text-[15px] text-stone-600 transition hover:bg-stone-50 hover:text-stone-900"
+            >
+              {l.label}
+            </a>
+          ))}
+          <a
+            href={`mailto:${profile.email}`}
+            onClick={() => setOpen(false)}
+            className="mt-2 flex items-center justify-center rounded-lg bg-accent-600 px-4 py-3 text-sm font-medium text-white"
+          >
+            Hire me
+          </a>
+        </div>
+      )}
+    </header>
+  );
+}

@@ -1,0 +1,14 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "/Users/mahmudul/Desktop/Work/nextjs-tailwind-resume-page/src/app/layout.tsx": [
+      "/Users/mahmudul/Desktop/Work/nextjs-tailwind-resume-page/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-sans\",\"display\":\"swap\"}],\"variableName\":\"inter\"}",
+      "/Users/mahmudul/Desktop/Work/nextjs-tailwind-resume-page/src/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/mahmudul/Desktop/Work/nextjs-tailwind-resume-page/src/app/page": [
+      "/Users/mahmudul/Desktop/Work/nextjs-tailwind-resume-page/src/app/globals.css",
+      "/Users/mahmudul/Desktop/Work/nextjs-tailwind-resume-page/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-sans\",\"display\":\"swap\"}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
