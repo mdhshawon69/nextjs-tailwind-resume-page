@@ -3,7 +3,9 @@ import { education, experience } from "@/lib/resume-data";
 
 export default function Experience() {
   return (
-    <section id="experience" className="scroll-mt-24 border-t border-stone-200 py-24 sm:py-36">
+    <section
+      id="experience"
+      className="scroll-mt-24 border-t border-stone-200 py-24 sm:py-36">
       <div className="mx-auto max-w-5xl px-5">
         <Reveal>
           <p className="section-label">Career journey</p>
@@ -27,19 +29,19 @@ export default function Experience() {
                     <span className="text-stone-400"> · {job.company}</span>
                   </h3>
                   <span className="flex items-center gap-2 text-sm text-stone-400">
-                    {job.current && (
-                      <span className="rounded-full bg-accent-100 px-2 py-0.5 text-[11px] font-semibold text-accent-700">
-                        Current
-                      </span>
-                    )}
                     {job.period}
                   </span>
                 </div>
                 <p className="mt-0.5 text-sm text-stone-400">{job.location}</p>
                 <ul className="mt-3 space-y-2">
                   {job.points.map((point) => (
-                    <li key={point} className="flex gap-3 text-[15px] leading-relaxed text-stone-600">
-                      <span aria-hidden className="mt-2.5 h-1 w-1 flex-none rounded-full bg-stone-300" />
+                    <li
+                      key={point}
+                      className="flex gap-3 text-[15px] leading-relaxed text-stone-600">
+                      <span
+                        aria-hidden
+                        className="mt-2.5 h-1 w-1 flex-none rounded-full bg-stone-300"
+                      />
                       {point}
                     </li>
                   ))}
@@ -52,9 +54,7 @@ export default function Experience() {
         <Reveal>
           <div className="mt-14 border-t border-stone-200 pt-10">
             <p className="section-label">Education</p>
-            <ul className="mt-6 space-y-6">
-              {educationList()}
-            </ul>
+            <ul className="mt-6 space-y-6">{educationList()}</ul>
           </div>
         </Reveal>
       </div>
@@ -69,7 +69,9 @@ function educationList() {
         <h3 className="font-semibold text-stone-900">{ed.degree}</h3>
         <span className="text-sm text-stone-400">{ed.period}</span>
       </div>
-      <p className="mt-1 text-[15px] leading-relaxed text-stone-600">{ed.detail}</p>
+      <p className="mt-1 text-[15px] leading-relaxed text-stone-600">
+        {ed.detail}
+      </p>
     </li>
   ));
 }

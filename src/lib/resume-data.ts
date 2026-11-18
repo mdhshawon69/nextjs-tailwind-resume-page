@@ -18,10 +18,26 @@ export const profile = {
     "Hey, I'm Mahmudul. I build scalable, high-performance web and mobile applications — and ship LLM-powered products. Sometimes for the teams I work with, always with production quality in mind.",
   // Definition-list facts (resume + previous site)
   facts: [
-    { term: "Role", value: "Full-Stack Software & AI Engineer. I take products from idea to production, across web, mobile and AI." },
-    { term: "Focus", value: "React Native mobile development for logistics ecosystems, with strong full-stack capabilities in React.js, Next.js, NestJS and Node.js — now specialising in LLM-powered products." },
-    { term: "Stack", value: "React, Next.js, React Native, TypeScript, Node.js, NestJS, LangChain, LangGraph, PostgreSQL, MongoDB, and more." },
-    { term: "Experience", value: "5+ years building & shipping scalable web and mobile applications, including apps serving 100,000+ monthly active users." },
+    {
+      term: "Role",
+      value:
+        "Full-Stack Software & AI Engineer. I take products from idea to production, across web, mobile and AI.",
+    },
+    {
+      term: "Focus",
+      value:
+        "React Native mobile development for logistics ecosystems, with strong full-stack capabilities in React.js, Next.js, NestJS and Node.js — now specialising in LLM-powered products.",
+    },
+    {
+      term: "Stack",
+      value:
+        "React, Next.js, React Native, TypeScript, Node.js, NestJS, LangChain, LangGraph, PostgreSQL, MongoDB, and more.",
+    },
+    {
+      term: "Experience",
+      value:
+        "5+ years building & shipping scalable web and mobile applications, including apps serving 100,000+ monthly active users.",
+    },
     { term: "Location", value: "Dhaka, Bangladesh." },
   ],
   highlights: [
@@ -133,10 +149,10 @@ export const skillGroups = [
 
 export const experience = [
   {
-    role: "Senior Software Engineer",
+    role: "Software Engineer",
     company: "Al Aqsa Express",
     location: "Dhaka, Bangladesh",
-    period: "Nov 2025 – Present",
+    period: "Nov 2025 – Jun 2026",
     current: true,
     points: [
       "Lead React Native mobile app development for logistics ecosystem serving thousands of users across iOS and Android.",
@@ -312,7 +328,8 @@ export const education = [
     period: "2023 – Present (Expected Jun 2027)",
   },
   {
-    degree: "Diploma in Engineering — Engineering and Survey Institute, Rajshahi",
+    degree:
+      "Diploma in Engineering — Engineering and Survey Institute, Rajshahi",
     detail:
       "Completed Diploma in Engineering (Computer Technology) with a CGPA of 3.54/4.00. Comprehensive understanding of fundamental engineering principles including mathematics, physics, and specialized areas in computer engineering.",
     period: "2022",
@@ -322,19 +339,19 @@ export const education = [
 // Simple Icons slugs for tech names used in project stacks
 export const techSlugMap: Record<string, string> = {
   "React Native": "react",
-  "React": "react",
+  React: "react",
   "Next.js": "nextdotjs",
   "Redux Toolkit": "redux",
   "shadcn/ui": "shadcnui",
-  "NestJS": "nestjs",
-  "PostgreSQL": "postgresql",
-  "SCSS": "sass",
+  NestJS: "nestjs",
+  PostgreSQL: "postgresql",
+  SCSS: "sass",
   "Tailwind CSS": "tailwindcss",
-  "Angular": "angular",
-  "MongoDB": "mongodb",
-  "Mongoose": "mongoose",
-  "GSAP": "gsap",
-  "TypeORM": "typeorm",
+  Angular: "angular",
+  MongoDB: "mongodb",
+  Mongoose: "mongoose",
+  GSAP: "gsap",
+  TypeORM: "typeorm",
   "Express.js": "express",
   "Node.js": "nodedotjs",
 };
